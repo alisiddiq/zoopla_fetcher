@@ -1,0 +1,6 @@
+beautifulsoup4
+numpy
+pandas>=1.4.1
+textract>=1.6.5
+requests
+tqdm
