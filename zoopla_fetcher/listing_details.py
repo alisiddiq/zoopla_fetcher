@@ -154,10 +154,7 @@ class ListingDetails:
     def extract_all(self, graphql_api_key: str) -> pd.Series:
         """
         :param graphql_api_key: Graph ql API key
-        :return: pd.Dat
-        """
-        """
-        :return: <pd.DataFrame> All the extracted features
+        :return: All details in a series
         """
         property_data = []
         all_methods = [
